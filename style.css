@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 85%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    padding: 5.5vw 10vw;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+#Left{
+    height: 100%;
+    width: 45%;
+    background-color: #333;
+    background-image: url("https://www.filmibeat.com/imgh/560x292/2023/01/animal-2023_167264941510.jpg");
+    background-position: top;
+    background-size: cover;
+}
+#right{
+    height: 100%;
+    width: 45%;
+    background-color: #444;
+    
+}
+#right h3{
+    font-size: 3vw;
+    font-weight: 500;
+    margin-left: 3vw;
+}
+#all-songs{
+    height: 80%;
+    /* background-color: rgb(77, 104, 104); */
+    padding: 1vw 3vw;
+    
+}
+.song-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-top: 1px solid #5a5a5a;
+    padding: 0.7vw 0.6vw;
+    
+}
+.song-cards #part-1{
+    display: flex;
+    align-items: center;
+    gap: 0.7vw;
+    pointer-events: none;
+        
+}
+.song-cards #part-1 img{
+    height: 3vw;
+    width: 3vw;
+    object-fit: cover;
+    object-fit: fill;
+    margin-right: 0.5vw;
+}
+.song-cards:nth-last-child(1){
+    /* padding: 1vw 2vw; */
+    border-bottom: 1px solid #5a5a5a;
+}
+
+.song-cards:hover{
+    background-color: #383434;
+}
+
+.song-cards #part-1 h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#player{
+    height: 15%;
+    width: 100%;
+    background-color: #323222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+#player h3 i{
+    font-size: 2vw;
+    font-weight: 400;
+}
+#player h3{
+    padding: 0.7vw;
+    border: 1px solid #444;
+    background-color: #5a5a5a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player h3:active{
+    scale: 0.9;
+}
